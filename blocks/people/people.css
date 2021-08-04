@@ -1,0 +1,4 @@
+.people{
+  max-width: calc(100% - 124px);
+  margin: 0 auto;
+}

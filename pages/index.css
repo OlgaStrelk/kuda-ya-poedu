@@ -1,2 +1,18 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__link/header__link.css);
+
+@import url(../blocks/people/people.css);
+@import url(../blocks/people/__title/people__title.css);
+@import url(../blocks/people/__subtitle/people__subtitle.css);
+@import url(../blocks/people/__container/people__container.css);
+@import url(../blocks/people/__quote/people__quote.css);
+@import url(../blocks/people/__quote-title/people__quote-title.css);
+@import url(../blocks/people/__quote-text/people__quote-text.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

@@ -1,0 +1,8 @@
+.people__container{
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+padding: 0;
+margin: 0;
+margin-bottom: 120px;
+}
