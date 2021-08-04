@@ -5,6 +5,7 @@
   line-height: 12px;
   font-weight: 700;
   list-style-type: none;
+  margin: 0;
   margin-right: 25px;
   transition: opacity .4s linear;
 }
@@ -14,19 +15,17 @@
 .header__link:hover{
   opacity: .5;
 }
+@media screen and (max-width:768px){
+  .header__link{
+    font-size: 18px;
+    line-height: 16px;
+  }
+}
 @media screen and (max-width:520px){
   .header__link{
     font-size: 20px;
     line-height: 15px;
-    margin: 0;
     margin-bottom: 20px;
   }
 }
-@media screen and (max-width:400px){
-  .header__link{
-    margin: 0 10px 20px;
-  }
-  .header__link:last-of-type{
-    margin: 0 10px 20px;
-  }
-}
+

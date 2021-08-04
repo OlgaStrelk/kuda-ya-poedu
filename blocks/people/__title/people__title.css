@@ -8,3 +8,13 @@
   margin-top: 90px;
 
 }
+@media screen and (max-width:450px){
+  .people__title{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width:320px){
+  .people__title{
+    margin-left: 24px;
+  }
+}

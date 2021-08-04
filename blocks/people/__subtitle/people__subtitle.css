@@ -6,3 +6,15 @@
   max-width: 583px;
   margin-bottom: 80px;
 }
+@media screen and (max-width:768px){
+  .people__subtitle{
+    font-size: 30px;
+    line-height: 42px;
+  }
+}
+@media screen and (max-width:320px){
+  .people__subtitle{
+    margin-left: 24px;
+    margin-bottom: 40px;
+  }
+}

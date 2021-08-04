@@ -6,3 +6,14 @@
   margin-bottom: 24px;
   text-transform: uppercase;
 }
+@media screen and (max-width:768px){
+  .people__quote-title{
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+@media screen and (max-width:450px){
+  .people__quote-title{
+    text-align: center;
+  }
+}

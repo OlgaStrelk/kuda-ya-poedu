@@ -6,3 +6,16 @@
   margin: 0 auto;
   padding-top: 245px;
 }
+
+@media screen and (max-width:768px){
+  .footer__copyright{
+    padding-top: 190px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width:400px){
+  .footer__copyright{
+    padding-top: 115px;
+  }
+}
