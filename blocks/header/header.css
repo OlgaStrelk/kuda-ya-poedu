@@ -1,5 +1,21 @@
 .header{
   max-width: calc(100% - 148px);
   margin: 0 auto;
-  margin-top: 70px;
+  padding-top: 70px;
+}
+@media screen and (max-width:1024px){
+  .header{
+    max-width: calc(100% - 100px);
+  }
+}
+@media screen and (max-width:768px){
+  .header{
+    max-width: calc(100% - 50px);
+  }
+}
+@media screen and (max-width:320px){
+  .header{
+    padding-top: 30px;
+    max-width: 100%;
+  }
 }
