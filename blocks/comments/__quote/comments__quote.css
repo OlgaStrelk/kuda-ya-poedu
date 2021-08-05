@@ -1,0 +1,17 @@
+.comments__quote{
+max-width: 20%;
+margin: 0 auto;
+}
+@media screen and (max-width:768px){
+  .comments__quote{
+    max-width: 47%;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width:450px){
+  .comments__quote{
+    max-width: 100%;
+    margin-bottom: 50px;
+
+  }
+}

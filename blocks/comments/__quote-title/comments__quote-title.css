@@ -1,0 +1,19 @@
+.comments__quote-title{
+  font-size: 12px;
+  font-weight: bolder;
+  line-height: 12px;
+  margin: 0;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+@media screen and (max-width:768px){
+  .comments__quote-title{
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+@media screen and (max-width:450px){
+  .comments__quote-title{
+    text-align: center;
+  }
+}

@@ -1,0 +1,14 @@
+.comments__container{
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+padding: 0;
+margin: 0;
+margin-bottom: 120px;
+flex-wrap: wrap;
+}
+@media screen and (max-width:400px){
+  .comments__container{
+    margin: 0 20px 0;
+  }
+}
